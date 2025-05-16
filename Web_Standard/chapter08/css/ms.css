@@ -1,0 +1,16 @@
+body{
+    background: red; color: aliceblue;
+}
+
+@media screen and (max-width:1280px){
+    body{background: rgb(101, 189, 224);}
+}
+@media screen and (max-width:1024px){
+    body{background: rgb(195, 101, 224);}
+}
+@media screen and (max-width:960px){
+    body{background: rgb(101, 224, 121);}
+}
+@media screen and (max-width:760px){
+    body{background: rgb(216, 224, 101);}
+}

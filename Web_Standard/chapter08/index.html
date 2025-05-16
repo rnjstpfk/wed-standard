@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 330px;
+            padding: 50px;
+            border: 5px solid #ddd;
+            border-radius: 20px;
+            margin: 50px auto;
+        }
+        legend{display: none;}
+        fieldset{border: none}
+        .input_button_wrap{
+            display: flex;
+        }
+        .input_button_wrap>div{}
+        .input_button_wrap>div input{
+            display: inline-block;
+            width: 150px;
+            padding: 2px;
+        }
+        .input_button_wrap>div label{
+            width: 60px;
+            display: inline-block;
+            margin-bottom: 2px;
+        }
+        .input_button_wrap>button{
+            background: orange;
+            color: #fff;
+            border: none;
+            margin-left: 5px;
+            width: 75px;
+            border-radius: 3px;
+        }
+        .box{
+            display: flex;
+            margin-bottom: 5px;
+            
+        }
+        .input_button_wrap_box>button{
+            background: #666;
+            color: #ddd;
+        }
+        .input_button_wrap_box{
+            padding: 5px 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>member Login</legend>
+            <div class="input_button_wrap">
+                <div>
+                    <label for="id">아이디</label>
+                    <input type="text" id="id">
+                    <br>
+                    <label for="pwd">비밀번호</label>
+                    <input type="text" id="pwd">
+                </div>
+                <button>로그인하기</button>
+            </div>
+
+            <div class="input_button_wrap_box">
+                <div class="box">
+                    <label for="id_box">아이디저장</label>
+                    <input type="checkbox" id="id_box">
+                    <br>
+                    <label for="pwd_box">보안접속</label>
+                    <input type="checkbox" id="pwd_box">
+                </div>
+                <button>회원가입</button>
+                <button>아이디/비밀번호 찾기</button>
+            </div>
+
+            
+            
+        </fieldset>
+    </form>
+</body>
+</html>

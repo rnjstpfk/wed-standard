@@ -1,0 +1,60 @@
+*{margin: 0; padding: 0;}
+
+header{width: 100%; height: 100px; background: yellow;
+display: flex; justify-content: center;     align-items: center;}
+nav{
+    width: 1200px;
+    height: 80px;
+    background: red;
+}
+main{width: 100%; height: 500px; background: rgb(72, 207, 117);}
+main .mainbanner{}
+section{width: 100%; height: 500px; background: rgb(89, 60, 196);}
+section .container{
+    width: 1000px;
+    margin: 0 auto;
+    background: red;
+}
+section .container ul{
+    display: flex;
+    list-style: none;
+}
+section .container ul li{
+    width: 25%;
+    height: 300px;
+    background: green;
+    margin: 10px;
+    
+}
+footer{}
+
+@media screen and (max-width: 1010px){
+    section .container{
+    width: 100%;
+    
+}
+
+    
+}
+
+@media screen and (max-width: 960px){
+    section .container ul{
+    display: flex;
+    list-style: wrap;
+}
+
+
+    section .container ul li{
+    width: 48%;
+    margin: 1px;
+    background: rgb(82, 152, 231);
+    
+}
+}
+@media screen and (max-width: 720px){
+
+    section .container ul li{
+    width: 98%;
+
+}
+}

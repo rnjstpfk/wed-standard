@@ -1,0 +1,41 @@
+:root{
+    --bg-color:#bd5ad6;
+    --main-text-color:#fff;
+}
+body{
+    background: var(--bg-color);
+    color:var(--main-text-color)
+}
+
+
+nav{
+    width: calc(100% / 2);
+    background: red;
+    margin: 0 auto;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.main{
+    max-width: 1500px;
+    height: 200px;
+    background: yellowgreen;
+    margin: 0 auto; width: 100%;
+}
+
+.blur{
+    filter: blur(5px);
+}
+.bright{
+    filter: brightness(50%);
+}
+
+.con{filter: contrast(70%);}
+.drop{filter: drop-shadow(5px 5px 50px #000);}
+.gr{filter: grayscale(100%);}
+.i{filter: invert(100%);}
+.o{filter: op;}
